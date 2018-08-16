@@ -1,3 +1,124 @@
 page-home {
-
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 5px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+  }
+  .divider {
+    height: 88%;
+    width: 100%;
+  }
+  .div1 {
+    background-color: blueviolet;
+  }
+  .wrapper {
+    position: relative;
+    margin-top: 5px;
+  }
+  .slides-div{
+    height: 70%;
+  }
+  .over-slides {
+    z-index: 2;
+    position: absolute;
+    background: transparent;
+    top: 0%;
+    left: 0%;
+    height: 88%;
+    width: 100%;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .mxplore-row {
+    height: 100%;
+  }
+  .div2 {
+    width: 100%;
+  }
+  .div3 {
+    background-color: #e4e4e4;
+  }
+  .div-grafica {
+    background-image: url("../../assets/imgs/template-lucia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .div3-1 {
+    background-color: white;
+  }
+  .background-img {
+    background-image: url("../../assets/imgs/capilla-de-santiago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    img {
+      z-index: 2;
+      position: absolute;
+      background: transparent;
+      top: 10%;
+      left: 0%;
+      width: 100%;
+      border-top-left-radius: 0px !important;
+      border-top-right-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+      border-bottom-right-radius: 0px !important;
+    }
+  }
+  .div-planner {
+    background-color: #f1ffd1;
+  }
+  .div3-2 {
+    background-color: #dfd1ff;
+  }
+  .language-back {
+    background-color: #6bff8b;
+    height: 100%;
+    img {
+      height: 100%;
+      width: auto;
+      margin: auto;
+      display: block;
+    }
+  }
+  // .recompensas-div {
+  //   background-color: #dfd1ff;
+  // }
+  .div4 {
+    width: 100%;
+  }
+  .pp-row {
+    img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+  }
+  h3 {
+    color: #e63333;
+    font-weight: bolder;
+  }
+  .youtube-container {
+    height: 400px;
+    width: 100%;
+  }
+  .pitch-video {
+    height: 100%;
+    width: 712px;
+  }
 }
